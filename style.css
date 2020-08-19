@@ -20,7 +20,7 @@ body {
   /* background-color: #c70039; */
   border-radius: 4px;
   width: 500px;
-  height: 600px;
+  height: 100vh;
   box-shadow: 0 10px 15px -5px grey;
   margin-top: 10px;
 }
@@ -118,4 +118,30 @@ form button:hover {
 .trash-button:hover,
 .check-button:hover {
   color: grey;
+}
+
+@media (max-width: 360px){
+  
+  .container {
+    
+    width: 90%;
+    
+  }
+
+  form input {
+    margin: 0px 5px 10px 5px;
+    height: 32px;
+    width: 180px;
+  }
+  form button {
+    width: 80px;
+    height:32px;
+    font-size: 12px;
+    
+  }
+
+  .todo-container{
+    width: 80%;
+  }
+
 }
