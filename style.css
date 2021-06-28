@@ -124,6 +124,11 @@ li{
   color: grey;
 }
 
+.todo-box{
+  height: 75vh;
+  overflow: auto;
+}
+
 @media (max-width: 360px){
   
   .container {
